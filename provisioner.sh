@@ -3,6 +3,7 @@ apt-get -y update
 apt-get -y install nginx
 rm /etc/nginx/sites-enabled/default
 
+# Having to escape bash variables isn't good enough.  Better way?
 cat << EOF > /etc/nginx/sites-enabled/fodor-example.conf
 	server {
 		listen 80 default_server;
@@ -12,7 +13,7 @@ cat << EOF > /etc/nginx/sites-enabled/fodor-example.conf
 		server_name _;
 
 		location / {
-			try_files $uri $uri/ =404;
+			try_files \$uri \$uri/ =404;
 		}
 	}
 EOF
