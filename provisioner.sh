@@ -7,12 +7,12 @@ cat << EOF > /etc/nginx/sites-enabled/fodor-example.conf
 	server {
 		listen 80 default_server;
 		root /var/www/fodor-example/;
-		index index.html index.htm;
+		index index.html;
 
-		server_name localhost;
+		server_name _;
 
 		location / {
-			try_files $uri $uri/ /index.html;
+			try_files $uri $uri/ =404;
 		}
 	}
 EOF
