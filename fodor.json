@@ -1,7 +1,7 @@
 {
 	"name": "ashleyhindle/fodor-example",
 	"install-path": "/var/www/fodor-example/",
-	"provisioner": "provisioner.sh",
+	"provisioner": "fodor/provisioner.sh",
 	"size": {
 		"suggested": "512mb"
 	},
