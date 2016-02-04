@@ -8,7 +8,7 @@
 	"distro": "ubuntu-14-04-x64",
 	"description": "Example Fodor setup which setups a Droplet with Ubuntu 14.04 and nginx",
 	"keywords": ["fodor", "example", "nginx"],
-	"homepage": "https://github.com/ashleyhindle",
+	"homepage": "https://github.com/ashleyhindle/fodor-example",
 	"inputs": [
 		{
 			"title": "Fake API Key",
