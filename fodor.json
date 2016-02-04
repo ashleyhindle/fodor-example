@@ -15,7 +15,7 @@
 			"name": "fakeapikey",
 			"placeholder": "xxxx-xxxx-xxxx-xxxx",
 			"type": "regex",
-			"regex": "[a-zA-Z\\-0-9]+",
+			"regex": "[a-zA-Z\\-0-9]+"
 		}
 	]
 }
