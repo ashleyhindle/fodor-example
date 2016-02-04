@@ -1,3 +1,4 @@
+#!/bin/bash
 apt-get update
 apt-get install nginx
 rm /etc/nginx/sites-enabled/default
