@@ -2,6 +2,9 @@
 	"name": "ashleyhindle/fodor-example",
 	"installpath": "/var/www/fodor-example/",
 	"provisioner": "fodor/provisioner.sh",
+	"text": {
+		"complete": "This is shown on completion of provisioning"
+	},
 	"links": [
 		{
 			"title": "HTTP",
@@ -9,7 +12,8 @@
 		}
 	],
 	"size": {
-		"suggested": "512mb"
+		"suggested": "512mb",
+		"required": "512mb"
 	},
 	"distro": "ubuntu-14-04-x64",
 	"description": "Example Fodor setup which setups a Droplet with Ubuntu 14.04 and nginx",
